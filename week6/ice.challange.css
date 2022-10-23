@@ -1,0 +1,27 @@
+.img{
+    style="width:100px";height:200px;
+    align-items: center;
+}
+
+.grid-container{
+    display: inline-grid;
+}
+.grid-item1{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    text-decoration: solid;
+    font-style:initial;
+    font-size: 60px;
+}
+.grid-item2{
+    position: absolute;
+    top: 140px;
+    left: 280px;
+    font-size: 28px;
+    color: brown;
+}
+.grid-item{
+    display: inline-grid;
+    background-color: gray;
+}
