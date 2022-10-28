@@ -9,9 +9,12 @@
 
 nav a {
   text-align: center;
-  color: #828c51;
+  color:#485c77;
   text-decoration: none;
-  padding: 35px;
+  justify-content: space-around;
+  display: grid;
+  padding: 15px;
+  
 }
 
 #hero-msg h1 {
@@ -22,7 +25,11 @@ nav a {
   text-align: center;
   color: white;
 }
-
+#hero-msg {
+grid-column: 2/3;
+grid-row: 1/2;
+margin-top: 100px;
+}
 .button-box {
   text-align: center;
 }
@@ -44,6 +51,9 @@ padding: 0;
 header {
   background-color: #e5eeb9;
   color: aliceblue;
+  display: grid;
+  grid-template-columns: 150px auto;
+
 }
 
 nav a:hover {
@@ -64,8 +74,8 @@ nav a:hover {
 
 .book:hover,
 .join:hover {
-  background-color: white;
-  color: black;
+background-color: white;
+color: black;
 }
 
 #background {
@@ -120,6 +130,8 @@ h2 {
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .msg{
     padding: 35px;
@@ -144,19 +156,6 @@ footer.social img{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #92afd7;
 }
-header {
-  display: grid;
-  grid-template-columns: 150px auto;
-}
-nav {
-  display: flex;
-  justify-content: space-around;
-}
-#logo_link {
-  padding-top: 5px;
-  justify-self: center;
-  align-self: center;
-}
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -166,11 +165,6 @@ nav {
   grid-column: 1/4;
   grid-row: 1/3;
   z-index: -1;
-}
-#hero-msg {
-grid-column: 2/3;
-grid-row: 1/2;
-margin-top: 100px;
 }
 #home-grid {
 display: grid;
@@ -216,10 +210,6 @@ box-shadow: 5px 5px 10px #828c51;
   }
   nav, footer {
       flex-direction: column;
-  }
-  nav a {
-      display: block;
-      padding: 15px;
   }
   #hero {
       margin-top: 0;
