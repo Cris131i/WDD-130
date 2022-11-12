@@ -258,3 +258,17 @@ footer.social img {
     margin-top: 25px;
   }
 }
+river-img{
+  align-items: center;
+}
+
+#text{
+font-style:'Zen Antique', serif;
+color:#e5eeb9;
+font-size: 21px;
+position: absolute;
+padding-left: 3cm;
+padding-right: 3cm;
+padding-bottom: 2cm;
+
+}
