@@ -273,3 +273,32 @@ padding-bottom: 2cm;
 
 }
 
+  
+#river-img{
+  position: relative;
+  left: 480px;
+  padding-top: 3cm;
+}
+
+#video{
+  margin-left: 1cm;
+  border-style: dotted;
+  border-color: #e5eeb9;
+  margin-top: 1cm;
+}
+
+#boat-img{
+  padding-top: 1cm;
+  width:100%
+  
+}
+
+p4, h4, p3, p5,h5{
+  font-size: 20px;
+  text-align: center;
+  color:#828c51;
+  background-color: aliceblue;
+  float: center;
+  
+  
+}
