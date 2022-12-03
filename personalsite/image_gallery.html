@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capture a moment | Home </title>
-    <link rel="sylesheet" href="styles/site-style.css"/>
+    <link rel="stylesheet" href="styles/site-style.css"/>
 </head>
 <body>
     <div id="content">
@@ -32,30 +32,21 @@
         <img class="pic19" src="000051.JPG">
         </div>
         <footer>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li>
-                      <label for="name">Name:</label>
-                      <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                      <label for="mail">E-mail:</label>
-                      <input type="email" id="mail" name="user_email" />
-                    </li>
-                    <li>
-                      <label for="msg">Message:</label>
-                      <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                  </ul>
-                  
-                  <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-                  <textarea>
-                    
-                    </textarea>
+          <form  method="get" class="form-example">
+              <div class="form-example">
+                <label for="name">Enter your name: </label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <div class="form-example">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="form-example">
+                <input type="submit" value="Subscribe!">
+              </div>
             </form>
-        </footer>
+            
+      </footer>
 
         <nav2>
             <a href="site-plan.html">Site plan</a>
@@ -69,3 +60,4 @@
 
 </body>
 </html>
+
