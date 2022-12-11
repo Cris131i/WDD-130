@@ -140,9 +140,3 @@ p15{
     font-family: 'Roboto Condensed', sans-serif;
     color: blanchedalmond;
 }
-
-@media screen and (max-width: 900px) {
-    #hero,
-    .home-grid {
-      display: block;
-      height: auto;
