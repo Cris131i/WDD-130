@@ -9,7 +9,7 @@ body{
     padding-top: 5px;
 }
 header{
-    width: 1300px;
+    width: 1430px;
     justify-self: center;
     align-self: center;
     padding-top: 5px;
@@ -99,16 +99,17 @@ grid-column: 1/2;
     grid-row: 2;
 }
 .img5{
+    padding-top: 40px;
     grid-column: 3;
     grid-row: 1;
-    width: 800px;
 }
 .img6{
     grid-column: 1/2;
     grid-row: 3;
-    padding-top: 120px;
+    padding-top: 420px;
     padding-bottom: 30px;
-    width: 1500px;
+    width: 1000px;
+    padding-left: 60px;
 }
 p4{
 font-family: 'Island Moments', cursive;
@@ -121,9 +122,10 @@ p5{
 font-family: 'Island Moments', cursive;
 color:aliceblue;
 margin: 20px;
-grid-row: 2/5;
+grid-row: 3/3;
 padding-top: 10px;
 font-size: 24px;
+z-index: 1;
 }
 p10{
     grid-row: 2/2;
